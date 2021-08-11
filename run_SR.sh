@@ -1,6 +1,5 @@
 #!/bin/bash
 
-
 ## Folders
 TMC13DIR=../mpeg-pcc-tmc13/
 RESULTS=test/experiment/
