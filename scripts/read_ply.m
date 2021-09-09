@@ -10,4 +10,8 @@ s2 = find(x(s1:end)==10,1);
 
 VC = str2num(x((s1+s2):end));
 V = VC(:,1:3);
-C = VC(:,4:6);
+if size(VC,2) == 6
+	C = VC(:,4:6);
+else
+	C = zeros(size(V));
+end
